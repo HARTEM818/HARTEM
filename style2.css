@@ -54,6 +54,7 @@
     text-align: left;
     font-size: 20px;
     margin-top: 40px;
+    
 }
 .skills_item:nth-child(2n+2){
     color: #00ADB5;
