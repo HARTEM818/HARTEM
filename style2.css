@@ -1,0 +1,60 @@
+.container{
+    max-width: 851px;
+    margin:0 auto;
+}
+
+.header{
+    padding: 54px 0 47px 0;
+    border-bottom: 2px solid blue;
+}
+.hero{
+    padding: 191px 0 99px;
+}
+
+.header-logo{
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.hero-title{
+    font-size: 96px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px 0 0 0;
+}
+.hero-title span{
+    color: #00ADB5;
+}
+.hero-button{
+    padding: 10px 32px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #393E46;
+    border: transparent;
+    border-radius: 24px;
+}
+.hero-button:hover{
+    background-color: #00ADB5;
+}
+.hero-item:not(:last-child){
+    margin-bottom: 24px;
+} 
+.container_skills{
+    max-width: 850px;
+    margin: 0 auto;
+}
+.skills_title{
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    margin: 30px 0 0 0;    
+}
+.skills_list{
+    font-family: Poppins, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.skills_item:nth-child(2n+2){
+    color: #00ADB5;
+}
