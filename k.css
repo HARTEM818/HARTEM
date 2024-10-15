@@ -48,9 +48,21 @@ header {
   color: #8f95a5;
   font-family: Poppins;
   font-size: 24px;
-  font-style: normal;
   font-weight: 400;
   
+}
+.information > p{
+  color: #263238;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48px; /* 160% */
+    .p1{
+    color: #8F95A5;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    }
 }
 footer > div {
   display: flex;
@@ -61,7 +73,6 @@ footer > div {
     color: #8f95a5;
     font-family: Poppins;
     font-size: 24px;
-    
     font-weight: 400;
     }
 }
