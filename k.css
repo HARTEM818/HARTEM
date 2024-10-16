@@ -53,7 +53,7 @@ header {
 }
 .cards{
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
 }
 .logo-pricing{
   color: #000;
@@ -71,6 +71,7 @@ header {
   font-size: 30px;
   font-weight: 600;
   line-height: 48px;
+  margin-top: 40px;
 }
 
 .p2 {
@@ -78,6 +79,7 @@ header {
   font-family: Poppins;
   font-size: 20px;
   font-weight: 400;
+  margin-top: 19px;
 }
 
 .button {
@@ -110,19 +112,21 @@ header {
   font-size: 30px;
   font-weight: 600;
   line-height: 48px; /* 160% */
+  margin-top: 68px;
 }
 .p5{
   color: #8F95A5;
   font-family: Poppins;
   font-size: 20px;
   font-weight: 400;
+  margin-top: 23px;
 }
 .button2{
   width: 240px;
   height: 45px;
   border-radius: 5px;
   background: #EEE;
-  margin-top: 29px;
+  margin-top: 45px;
   margin-bottom: 29px;
 
 }
