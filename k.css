@@ -15,24 +15,22 @@ header {
 .navigation {
   ul {
     display: flex;
-    gap: 24px;
-    list-style {
-      color: #263238;
-      font-family: Poppins;
-      font-size: 20px;
-      font-weight: 500;
-    }
+    gap: 34px;
+    color: #263238;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
   }
 }
-.logo {
+.logo > p {
   color: #000;
   font-family: Poppins;
   font-size: 36px;
   font-weight: 400;
   display: inline;
-  span {
-    color: #939393;
-  }
+}
+.spn {
+  color: grey;
 }
 .lets-go {
   width: 220px;
@@ -49,13 +47,12 @@ header {
   font-family: Poppins;
   font-size: 24px;
   font-weight: 400;
-  
 }
-.cards{
+.cards {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
 }
-.logo-pricing{
+.logo-pricing {
   color: #000;
   font-family: Poppins;
   font-size: 48px;
@@ -64,6 +61,10 @@ header {
   margin-top: 30px;
   margin-bottom: 20px;
   text-align: center;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
 }
 .p1 {
   color: #263238;
@@ -75,7 +76,7 @@ header {
 }
 
 .p2 {
-  color: #8F95A5;
+  color: #8f95a5;
   font-family: Poppins;
   font-size: 20px;
   font-weight: 400;
@@ -84,12 +85,14 @@ header {
 
 .button {
   border-radius: 5px;
-  background: #EEE;
+  background: #eee;
   width: 260px;
   height: 50px;
   margin-top: 29px;
   margin-bottom: 29px;
-
+}
+.onl {
+  margin-left: 40px;
 }
 
 .p3 {
@@ -99,14 +102,14 @@ header {
   font-weight: 400;
   margin: 0;
 }
-.sp{
+.sp {
   color: #546269;
   font-family: Poppins;
   font-size: 18px;
   font-weight: 300;
 }
 
-.p4{
+.p4 {
   color: #263238;
   font-family: Poppins;
   font-size: 30px;
@@ -114,44 +117,84 @@ header {
   line-height: 48px; /* 160% */
   margin-top: 68px;
 }
-.p5{
-  color: #8F95A5;
+.p5 {
+  color: #8f95a5;
   font-family: Poppins;
   font-size: 20px;
   font-weight: 400;
   margin-top: 23px;
 }
-.button2{
+.button2 {
   width: 240px;
   height: 45px;
   border-radius: 5px;
-  background: #EEE;
-  margin-top: 45px;
+  background: #eee;
+  margin-top: 67px;
   margin-bottom: 29px;
-
 }
-.p6{
+.p6 {
   color: #263238;
   font-family: Poppins;
   font-size: 30px;
   font-weight: 400;
 }
-.sp2{
+.sp2 {
   color: #546269;
   font-family: Poppins;
   font-size: 18px;
   font-weight: 400;
 }
-
+.p7 {
+  color: #8f95a5;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.button3 {
+  width: 240px;
+  height: 45px;
+  border-radius: 5px;
+  background: #eee;
+  margin-top: 52px;
+}
+.p8 {
+  color: #263238;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 400;
+}
+.sp3 {
+  color: #546269;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+}
+.p9 {
+  color: #263238;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48px; /* 160% */
+  margin-top: 10px;
+}
+.web {
+  margin-left: 54px;
+}
 footer > div {
   display: flex;
   justify-content: space-between;
-  border-top: 2px solid #C4C4C4 ;
+  border-top: 2px solid #c4c4c4;
   padding-top: 31px;
+  padding-bottom: 30px;
   p {
     color: #8f95a5;
     font-family: Poppins;
     font-size: 24px;
     font-weight: 400;
-    }
+    color: black;
+  }
+}
+.spn2{
+  color: grey;
 }
