@@ -51,6 +51,20 @@ header {
   font-weight: 400;
   
 }
+.cards{
+  display: flex;
+  justify-content: space-between;
+}
+.logo-pricing{
+  color: #000;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 80px; /* 166.667% */
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
 .p1 {
   color: #263238;
   font-family: Poppins;
@@ -88,6 +102,41 @@ header {
   font-family: Poppins;
   font-size: 18px;
   font-weight: 300;
+}
+
+.p4{
+  color: #263238;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48px; /* 160% */
+}
+.p5{
+  color: #8F95A5;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+}
+.button2{
+  width: 240px;
+  height: 45px;
+  border-radius: 5px;
+  background: #EEE;
+  margin-top: 29px;
+  margin-bottom: 29px;
+
+}
+.p6{
+  color: #263238;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 400;
+}
+.sp2{
+  color: #546269;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 footer > div {
