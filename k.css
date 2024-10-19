@@ -133,9 +133,9 @@ header {
   margin-top: 67px;
   margin-bottom: 29px;
 }
-button2:hover {
-  background-color: blue;
-  color: blue;
+.button2:hover {
+  background-color: black;
+  color: purple;
 }
 .p6 {
   color: #263238;
