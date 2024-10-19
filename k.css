@@ -190,8 +190,8 @@ footer > div {
   display: flex;
   justify-content: space-between;
   border-top: 2px solid #c4c4c4;
-  padding-top: 31px;
-  padding-bottom: 30px;
+  /* padding-top: 31px; */
+  padding: 30PX 0 ;
   p {
     color: #8f95a5;
     font-family: Poppins;
