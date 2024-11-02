@@ -1,0 +1,42 @@
+.list {
+  margin: 0 auto;
+  width: 600px;
+  list-style: none;
+}
+.list-item {
+  background-color: rgba(128, 128, 128, 0.2);
+  border: 1px solid #000;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+.list-item-text {
+  font-weight: 800;
+  font-size: 30px;
+  position: relative;
+  margin: 0px;
+}
+.list-item-text::after {
+  content: ">";
+  font-size: 16px;
+  position: absolute;
+  transform: rotate(270deg);
+  transition-duration: 1s;
+  right: 10px;
+  top: 5px;
+}
+.list-item:hover .list-item-text::after {
+  transform: rotate(90deg);
+}
+.list-item:hover .list-item-text-hover {
+  height: 26px;
+  padding: 10px;
+}
+
+.list-item-text-hover {
+  background-color: #fff;
+  margin: 0;
+  overflow: hidden;
+  height: 0px;
+  transition-duration: 1s;
+  font-size: 16px;
+}
