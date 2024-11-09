@@ -1,3 +1,6 @@
+.list-item:hover body {
+  background-color: #000;
+}
 .list {
   margin: 0 auto;
   width: 600px;
@@ -20,7 +23,7 @@
   font-size: 16px;
   position: absolute;
   transform: rotate(270deg);
-  transition-duration: 1s;
+  transition-duration: 600ms;
   right: 10px;
   top: 5px;
 }
@@ -37,6 +40,6 @@
   margin: 0;
   overflow: hidden;
   height: 0px;
-  transition-duration: 1s;
+  transition-duration: 600ms;
   font-size: 16px;
 }
