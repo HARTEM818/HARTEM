@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./reset.css" />
+  </head>
+  <body>
+    <form>
+      <label>ФІО</label>
+      <div>
+        <label for="name"></label>
+        <input pattern="^[А-ЯІЇЄҐ][а-яіїєґ]*\s[А-ЯІЇЄҐ][а-яіїєґ]*$" type="text" required maxlength="16" name="name" />
+      </div>
+      <div>
+        <label for="age">вік</label>
+        <input
+          class="number"
+          required
+          min="12"
+          max="50"
+          type="number"
+          name="age"
+        />
+      </div>
+      <label class="checklabel" for="checkbox">приймаєте</label>
+      
+      <input class="checkbox" type="checkbox" id="checkbox" required name="checkbox" />
+      <label class="costum-check" for="checkbox"></label>
+      <button class="submit" type="submit">submit</button>
+    </form>
+  </body>
+</html>

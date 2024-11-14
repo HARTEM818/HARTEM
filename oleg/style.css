@@ -1,0 +1,41 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  background-color: gray;
+  transform: translateX(200px);
+}
+.number {
+  max-width: 30px;
+}
+input {
+  max-width: 100px;
+}
+button {
+  max-width: 110px;
+  pointer-events: none;
+}
+.costum-check{
+    display: inline-block;
+                width: 20px;    
+                height: 20px;
+                background-color: #ccc;
+                border-radius: 5px;
+                cursor: pointer;
+
+}
+.checkbox:checked + .costum-check{
+    background-color: green;
+}
+.checkbox{
+    
+    display: none;
+}
+.checkbox:checked ~ .submit {
+  pointer-events: auto;
+  color: red;
+}
+
+div {
+  max-width: 100px;
+}
